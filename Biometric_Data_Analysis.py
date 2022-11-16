@@ -4,7 +4,7 @@ import re
 # To avoid warning of chained assignment
 pd.options.mode.chained_assignment = None
 # load Data from Excel Sheet (Given the file path as per your system)
-df = pd.read_excel('C:/Users/Sanju/Downloads/Attendance.xlsx')
+df = pd.read_excel('Attendance.xlsx')
 
 # Removing rows having all the NULL values
 df1 = df.dropna(axis = 0,how='all')
